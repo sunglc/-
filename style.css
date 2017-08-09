@@ -1,0 +1,20 @@
+body{margin: 0;padding:0;}
+.container{position: relative;width: 100vw;height: 100vh;margin: auto;}
+.blue-sky{width: 100vw;height: 60vh;background: -webkit-linear-gradient(rgb(196, 228, 253), rgb(255,255,255));background:     -ms-linear-gradient(rgb(196, 228, 253),rgb(255,255,255));background:      -o-linear-gradient(rgb(196, 228, 253), rgb(255,255,255));background:         linear-gradient(rgb(196, 228, 253), rgb(255,255,255));
+}
+.grasslands{width: 100vw;height: 40vh;background:  -webkit-linear-gradient(rgb(255,255,255), rgb(148, 190, 89));background:      -ms-linear-gradient(rgb(255,255,255), rgb(148, 190, 89));background:       -o-linear-gradient(rgb(255,255,255), rgb(148, 190, 89));background:          linear-gradient(rgb(255,255,255), rgb(148, 190, 89));
+}
+.cloud{position: absolute;background-color: white;border-radius: 40%;}
+.cloud::before{position: absolute;content: "";background-color: white;width: 15vh;height: 12vh;margin: -5vh auto;border-radius: 50%;-webkit-transform: rotate(60deg);    -ms-transform: rotate(60deg);     -o-transform: rotate(60deg);transform: rotate(60deg);
+
+}
+.cloud::after{position: absolute;content: "";background-color: white;width: 13vh;height: 13vh;margin: -11% auto auto 35%;border-radius: 50%;
+}
+.one{width: 15vw;height: 10vh;margin: 2% auto auto 20%;-webkit-transform: scale(0.5);    -ms-transform: scale(0.5);     -o-transform: scale(0.5);    transform: scale(0.5);}
+.two{width: 15vw;height: 10vh;margin: 13% auto auto 27%;-webkit-transform: scale(0.5);    -ms-transform: scale(0.5);     -o-transform: scale(0.5);
+            transform: scale(0.5);}
+.three{width: 15vw;height: 10vh;margin: 5% auto auto 40%;}
+.four{width: 15vw;height: 10vh;margin: 14% auto auto 55%;-webkit-transform: scale(0.6);    -ms-transform: scale(0.6);     -o-transform: scale(0.6);
+            transform: scale(0.6);}
+.five{width: 15vw;height: 10vh;margin: 3% auto auto 70%;-webkit-transform: scale(0.5);    -ms-transform: scale(0.5);     -o-transform: scale(0.5);
+       transform: scale(0.5);}
